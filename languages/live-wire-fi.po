@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Wire\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 19:50+0200\n"
+"PO-Revision-Date: 2012-09-05 19:18+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ live-wire
+#: 404.php:26
+msgid "What happened!?"
+msgstr "Mitä tapahtui!?"
+
+# @ live-wire
+#: 404.php:31
+#, php-format
+msgid ""
+"You tried going to %s, which doesn't exist. You can try navigate or search."
+msgstr ""
+"Yritit mennä sivulle %s, mutta sivua ei enää ole. Koita käyttää "
+"navigaatiomenua tai etsiä haluamaasi."
+
+# @ live-wire
+#: attachment-image.php:37 content-aside.php:26 content-aside.php:35
+#: content-audio.php:26 content-audio.php:35 content-gallery.php:26
+#: content-gallery.php:39 content-image.php:26 content-image.php:35
+#: content-link.php:26 content-link.php:43 content-page.php:24
+#: content-page.php:37 content-quote.php:20 content-status.php:22
+#: content-video.php:26 content-video.php:35 content.php:26 content.php:41
+#: taxonomy-post_format-video.php:44
+msgid "Pages:"
+msgstr "Sivut:"
+
+# @ live-wire
+#: attachment-image.php:43
+msgid "Gallery"
+msgstr "Kuvagalleria"
+
+# @ live-wire
+#: attachment-image.php:50
+msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
+msgstr "Julkaistu [entry-published] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: comment.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa moderointia."
+
+# @ live-wire
+#: comments.php:27
+msgid "No Responses"
+msgstr "Ei vastauksia"
+
+# @ live-wire
+#: comments.php:27
+msgid "One Response"
+msgstr "Yksi vastaus"
+
+# @ live-wire
+#: comments.php:27
+msgid "% Responses"
+msgstr "% Vastausta"
+
+# @ live-wire
+#: comments.php:31
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Sivu %1$s / %2$s"
+
+# @ live-wire
+#: comments.php:50
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+"Kommentointi on suljettu, mutta <a href=\"%s\" title=\"Trackback URL for "
+"this post\">paluuviitteet</a> ja päivitysilmoitukset ovat avoinna."
+
+# @ live-wire
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+# @ live-wire
+#: content-aside.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]"
+msgstr ""
+"[post-format-link] julkaistu [entry-published] [entry-edit-link before=\"| "
+"\"]"
+
+# @ live-wire
+#: content-aside.php:29 content-audio.php:29 content-gallery.php:29
+#: content-image.php:29 content-link.php:29 content-video.php:29
+#: content.php:29
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
+"[entry-terms before=\"Avainsanat \"]"
+
+# @ live-wire
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:42
+#: content-image.php:38 content-link.php:48 content-quote.php:26
+#: content-video.php:38
+msgid ""
+"[post-format-link] published on [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] julkaistu [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-audio.php:22 content-gallery.php:22 content-image.php:22
+#: content-link.php:22 content-video.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
+"\" | \"] [entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content-quote.php:24
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] "
+"[entry-terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] julkaistu [entry-published] [entry-edit-link before=\"| "
+"\"]<br />[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa "
+"\"] [entry-terms before=\"Avainsanat \"]"
+
+# @ live-wire
+#: content-status.php:26
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-edit-link before=\"| "
+"\"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-"
+"terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] päivitetty [entry-published] [entry-edit-link before=\"| "
+"\"]<br />[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa "
+"\"] [entry-terms before=\"Avainsanat \"]"
+
+# @ live-wire
+#: content-status.php:28
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] päivitetty [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-video.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: content.php:22 content.php:37
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link before="
+"\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"[entry-author]  [entry-published] [entry-comments-link before=\" | \"] "
+"[entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content.php:44
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"| Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
+"[entry-terms before=\"| Avainsanat \"]"
+
+# @ live-wire
+#: header.php:77
+msgid "You are here:"
+msgstr "Olet täällä:"
+
+# @ live-wire
+#: loop-error.php:16
+msgid "Apologies, but no entries were found."
+msgstr "Pahoittelut, mutta yhtään artikkelia/sivua ei löytynyt."
+
+# @ live-wire
+#: loop-meta.php:89
+#, php-format
+msgid "You are browsing the search results for \"%s\""
+msgstr "Hakutulokset termille \"%s\""
+
+# @ live-wire
+#: loop-meta.php:98
+msgid "Archives by date"
+msgstr "Päiväkohtaiset arkistot"
+
+# @ live-wire
+#: loop-meta.php:102
+msgid "You are browsing the site archives by date."
+msgstr "Selaat päiväkohtaista arkistoa."
+
+# @ hybrid-core
+# @ live-wire
+#: loop-meta.php:126
+msgid "Archives"
+msgstr "Arkistot"
+
+# @ live-wire
+#: loop-meta.php:130
+msgid "You are browsing the site archives."
+msgstr "Selaat arkistoa."
+
+# @ live-wire
+#: loop-nav.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr "<span class=\"meta-nav\">&larr;</span> Palaa takaisin"
+
+# @ live-wire
+#: loop-nav.php:28 loop-nav.php:32 loop-nav.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Edellinen"
+
+# @ live-wire
+#: loop-nav.php:29 loop-nav.php:32
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Seuraava <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: loop-nav.php:34
+msgid "Next &rarr;"
+msgstr "Seuraava &rarr;"
+
+#: menu-primary.php:22
+msgid "Primary Navigation..."
+msgstr "Valitse sivu..."
+
+#: menu-secondary.php:22
+msgid "Secondary Navigation..."
+msgstr "Valitse sivu..."
+
+# @ live-wire
+#: search.php:40
+msgid "Published on [entry-published]"
+msgstr "Julkaistu [entry-published]"
+
+#: searchform.php:16 searchform.php:17
+msgid "Search"
+msgstr "Etsi"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:40
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-views before=\" | \" after=\" views \"] [entry-edit-"
+"link before=\" | \"]"
+msgstr ""
+"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
+"\" | \"] [entry-views before=\" | \" after=\" katselukertaa \"] [entry-edit-"
+"link before=\" | \"]"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:47
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\" | Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Artikkelia kategoriassa \"] "
+"[entry-terms before=\" | Avainsanat \"]"

@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Wire\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 19:50+0200\n"
+"PO-Revision-Date: 2012-09-02 19:51+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: FxBe <fxbenard@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ live-wire
+#: 404.php:26
+msgid "What happened!?"
+msgstr "Que s'est-il passé !?"
+
+# @ live-wire
+#: 404.php:31
+#, php-format
+msgid ""
+"You tried going to %s, which doesn't exist. You can try navigate or search."
+msgstr ""
+"Vous essayé d'accéder à %s, qui n'existe pas. Vous pouvez essayer de "
+"naviguer ou de lancer une recherche."
+
+# @ live-wire
+#: attachment-image.php:37 content-aside.php:26 content-aside.php:35
+#: content-audio.php:26 content-audio.php:35 content-gallery.php:26
+#: content-gallery.php:39 content-image.php:26 content-image.php:35
+#: content-link.php:26 content-link.php:43 content-page.php:24
+#: content-page.php:37 content-quote.php:20 content-status.php:22
+#: content-video.php:26 content-video.php:35 content.php:26 content.php:41
+#: taxonomy-post_format-video.php:44
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+# @ live-wire
+#: attachment-image.php:43
+msgid "Gallery"
+msgstr "Galerie"
+
+# @ live-wire
+#: attachment-image.php:50
+msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
+msgstr "Publié le [entry-published] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: comment.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+# @ live-wire
+#: comments.php:27
+msgid "No Responses"
+msgstr "Aucune réponse"
+
+# @ live-wire
+#: comments.php:27
+msgid "One Response"
+msgstr "Une réponse"
+
+# @ live-wire
+#: comments.php:27
+msgid "% Responses"
+msgstr "% réponses"
+
+# @ live-wire
+#: comments.php:31
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Page %1$s de %2$s"
+
+# @ live-wire
+#: comments.php:50
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+"Les commentaires sont fermés, mais <a href=\"%1$s\" title=\"les retroliens "
+"pour cet article\">les retroliens</ a> et les pings sont ouverts."
+
+# @ live-wire
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+# @ live-wire
+#: content-aside.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]"
+msgstr ""
+"[post-format-link] pubié le [entry-published] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-aside.php:29 content-audio.php:29 content-gallery.php:29
+#: content-image.php:29 content-link.php:29 content-video.php:29
+#: content.php:29
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"Tagged \"]"
+
+# @ live-wire
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:42
+#: content-image.php:38 content-link.php:48 content-quote.php:26
+#: content-video.php:38
+msgid ""
+"[post-format-link] published on [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] publé le [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-audio.php:22 content-gallery.php:22 content-image.php:22
+#: content-link.php:22 content-video.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"[post-format-link] publé le [entry-published] [entry-comments-link before=\" "
+"| \"] [entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content-quote.php:24
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] "
+"[entry-terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] publé le [entry-published] [entry-edit-link before=\"| \"]"
+"<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"Tagged \"]"
+
+# @ live-wire
+#: content-status.php:26
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-edit-link before=\"| "
+"\"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-"
+"terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] mis à jour le [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] "
+"[entry-terms before=\"Tagged \"]"
+
+# @ live-wire
+#: content-status.php:28
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] mis à jour le [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-video.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer la lecture <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: content.php:22 content.php:37
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link before="
+"\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"Publié par [entry-author] le [entry-published] [entry-comments-link before="
+"\" | \"] [entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content.php:44
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"| Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"| Tagged \"]"
+
+# @ live-wire
+#: header.php:77
+msgid "You are here:"
+msgstr "Vous êtes ici :"
+
+# @ live-wire
+#: loop-error.php:16
+msgid "Apologies, but no entries were found."
+msgstr "Désolé, mais aucune entrée n'a été trouvée."
+
+# @ live-wire
+#: loop-meta.php:89
+#, php-format
+msgid "You are browsing the search results for \"%s\""
+msgstr "Vous parcourez les résultats de recherche pour \"% s\""
+
+# @ live-wire
+#: loop-meta.php:98
+msgid "Archives by date"
+msgstr "Archives par date"
+
+# @ live-wire
+#: loop-meta.php:102
+msgid "You are browsing the site archives by date."
+msgstr "Vous parcourez les archives du site par date."
+
+# @ hybrid-core
+# @ live-wire
+#: loop-meta.php:126
+msgid "Archives"
+msgstr "Archives"
+
+# @ live-wire
+#: loop-meta.php:130
+msgid "You are browsing the site archives."
+msgstr "Vous parcourez les archives du site."
+
+# @ live-wire
+#: loop-nav.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr "<span class=\"meta-nav\">&larr;</span> Retour à l'entrée"
+
+# @ live-wire
+#: loop-nav.php:28 loop-nav.php:32 loop-nav.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+# @ live-wire
+#: loop-nav.php:29 loop-nav.php:32
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: loop-nav.php:34
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: menu-primary.php:22
+msgid "Primary Navigation..."
+msgstr ""
+
+#: menu-secondary.php:22
+msgid "Secondary Navigation..."
+msgstr ""
+
+# @ live-wire
+#: search.php:40
+msgid "Published on [entry-published]"
+msgstr "Publié le [entry-published]"
+
+#: searchform.php:16 searchform.php:17
+msgid "Search"
+msgstr "Rechercher"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:40
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-views before=\" | \" after=\" views \"] [entry-edit-"
+"link before=\" | \"]"
+msgstr ""
+"[post-format-link] publié le [entry-published] [entry-comments-link before="
+"\" | \"] [entry-views before=\" | \" after=\" views \"] [entry-edit-link "
+"before=\" | \"]"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:47
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\" | Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\" | Tagged \"]"
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Document Title:"
+#~ msgstr "Titre du document&nbsp;:"
+
+#~ msgid "Meta Description:"
+#~ msgstr "Méta Description&nbsp;:"
+
+#~ msgid "Meta Keywords:"
+#~ msgstr "Méta Keywords (mots-clés)&nbsp;:"
+
+#~ msgid "Template"
+#~ msgstr "Modèle"
+
+#~ msgid "No templates exist for this post type."
+#~ msgstr "Aucun modèle n'existe pour ce type d'aticle."
+
+#~ msgid "About %1$s"
+#~ msgstr "À propos de %1$s"
+
+#~ msgid "Theme:"
+#~ msgstr "Thème&nbsp;:"
+
+#~ msgid "Version:"
+#~ msgstr "Version&nbsp;:"
+
+#~ msgid "Author:"
+#~ msgstr "Auteur&nbsp;:"
+
+#~ msgid "Description:"
+#~ msgstr "Description&nbsp;:"
+
+#~ msgid "Footer settings"
+#~ msgstr "Paramètres du pied de page"
+
+#~ msgid ""
+#~ "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
+#~ "acronym> and/or shortcodes, which will be automatically inserted into "
+#~ "your theme."
+#~ msgstr ""
+#~ "Vous pouvez ajouter ces balises et attributs <acronym title=\"Hypertext "
+#~ "Markup Language\">HTML</acronym> et/ou des raccourcis, qui seront "
+#~ "automatiquement insérés dans votre thème"
+
+#, fuzzy
+#~ msgid "%1$s Theme Settings"
+#~ msgstr "Paramètres du thème %1$s "
+
+#, fuzzy
+#~ msgid "Theme Settings"
+#~ msgstr "Paramètres du thème"
+
+#, fuzzy
+#~ msgid "Update Settings"
+#~ msgstr "Mise à jour des paramètres "
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid "Support"
+#~ msgstr "Aide"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "archives."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "archives."
+
+#~ msgid "Select Year"
+#~ msgstr "Choisir l'année"
+
+#~ msgid "Select Month"
+#~ msgstr "Choisir le mois"
+
+#~ msgid "Select Week"
+#~ msgstr "Choisir la semaine"
+
+#~ msgid "Select Day"
+#~ msgstr "Choisir le jour"
+
+#~ msgid "Select Post"
+#~ msgstr "Choisir l'article"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Ordre alphabétique"
+
+#~ msgid "Daily"
+#~ msgstr "Quotidien"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensuel"
+
+#~ msgid "Post By Post"
+#~ msgstr "Article par article"
+
+#~ msgid "Weekly"
+#~ msgstr "Hebdomadaire"
+
+#~ msgid "Yearly"
+#~ msgstr "Annuel"
+
+#~ msgid "Custom"
+#~ msgstr "Personnalisé"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Option"
+#~ msgstr "Option"
+
+#~ msgid "Title:"
+#~ msgstr "Titre :"
+
+#~ msgid "Show post count?"
+#~ msgstr "Afficher le nombre d&rsquo;articles ?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "author lists."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "listes d'auteurs ."
+
+#~ msgid "Authors"
+#~ msgstr "Auteurs"
+
+#~ msgid "Ascending"
+#~ msgstr "Croissant"
+
+#~ msgid "Descending"
+#~ msgstr "Décroissant"
+
+#~ msgid "Display Name"
+#~ msgstr "Nom affiché"
+
+#~ msgid "Email"
+#~ msgstr "É-mail "
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Nice Name"
+#~ msgstr "Joli nom"
+
+#~ msgid "Post Count"
+#~ msgstr "Décompte d'article"
+
+#, fuzzy
+#~ msgid "Registered"
+#~ msgstr "Inscrit"
+
+#, fuzzy
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#, fuzzy
+#~ msgid "Login"
+#~ msgstr "Se connecter"
+
+#, fuzzy
+#~ msgid "List"
+#~ msgstr "Liste"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#, fuzzy
+#~ msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+#~ msgstr "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+
+#, fuzzy
+#~ msgid "Exclude admin?"
+#~ msgstr "Exclure l&rsquo;administrateur ?"
+
+#, fuzzy
+#~ msgid "Show full name?"
+#~ msgstr "Afficher le nom entier ?"
+
+#, fuzzy
+#~ msgid "Hide empty?"
+#~ msgstr "Cacher les vides ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "bookmarks (links)."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "signets (liens)."
+
+#, fuzzy
+#~ msgid "Bookmarks"
+#~ msgstr "Favoris"
+
+#, fuzzy
+#~ msgid "Count"
+#~ msgstr "Recompter"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#, fuzzy
+#~ msgid "Slug"
+#~ msgstr "Identifiant"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#, fuzzy
+#~ msgid "Length"
+#~ msgstr "Longueur"
+
+#, fuzzy
+#~ msgid "Notes"
+#~ msgstr "Notes"
+
+#, fuzzy
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#, fuzzy
+#~ msgid "Random"
+#~ msgstr "Au hasard"
+
+#, fuzzy
+#~ msgid "Rating"
+#~ msgstr "Note"
+
+#, fuzzy
+#~ msgid "Rel"
+#~ msgstr "Rel"
+
+#, fuzzy
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#, fuzzy
+#~ msgid "Target"
+#~ msgstr "Cible"
+
+#, fuzzy
+#~ msgid "Updated"
+#~ msgstr "Mis à jour"
+
+#, fuzzy
+#~ msgid "Categorize?"
+#~ msgstr "Catégoriser ?"
+
+#, fuzzy
+#~ msgid "Show description?"
+#~ msgstr "Afficher les descriptions ?"
+
+#, fuzzy
+#~ msgid "Hide invisible?"
+#~ msgstr "Masquer invisible ?"
+
+#, fuzzy
+#~ msgid "Show rating?"
+#~ msgstr "Afficher les notes ?"
+
+#, fuzzy
+#~ msgid "Show updated?"
+#~ msgstr "Afficher les mises à jour ?"
+
+#, fuzzy
+#~ msgid "Show images?"
+#~ msgstr "Afficher les images"
+
+#, fuzzy
+#~ msgid "Show name?"
+#~ msgstr "Afficher le nom ?"
+
+#, fuzzy
+#~ msgid "Show private?"
+#~ msgstr "Afficher les privés ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "calendar."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de "
+#~ "votre calendrier."
+
+#, fuzzy
+#~ msgid "Calendar"
+#~ msgstr "Calendrier"
+
+#, fuzzy
+#~ msgid "One-letter abbreviation?"
+#~ msgstr "Abréviation d'une lettre ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "category links."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "liens de catégories."
+
+#, fuzzy
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#, fuzzy
+#~ msgid "Term Group"
+#~ msgstr "Informations du Groupe"
+
+#, fuzzy
+#~ msgid "Atom"
+#~ msgstr "Protocole de publication Atom"
+
+#, fuzzy
+#~ msgid "RDF"
+#~ msgstr "RDF"
+
+#, fuzzy
+#~ msgid "RSS 2.0"
+#~ msgstr "Flux Rss 2.0"
+
+#, fuzzy
+#~ msgid "Hierarchical?"
+#~ msgstr "Hiérarchique ?"
+
+#, fuzzy
+#~ msgid "Use description?"
+#~ msgstr "Utiliser les descriptions ?"
+
+#, fuzzy
+#~ msgid "Show count?"
+#~ msgstr "Afficher le compte ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "menus."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "menus."
+
+#, fuzzy
+#~ msgid "Navigation Menu"
+#~ msgstr "Menu de navigation"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "page links."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "liens de pages."
+
+#, fuzzy
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#, fuzzy
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#, fuzzy
+#~ msgid "Menu Order"
+#~ msgstr "Ordre du menu"
+
+#, fuzzy
+#~ msgid "Modified"
+#~ msgstr "Modifié dernièrement"
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#, fuzzy
+#~ msgid "Created"
+#~ msgstr "Créé"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "search form."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de "
+#~ "sortie de votre formulaire de recherche."
+
+#, fuzzy
+#~ msgid "Search Label:"
+#~ msgstr "Etiquette de la recherche&nbsp;:"
+
+#, fuzzy
+#~ msgid "Search Text:"
+#~ msgstr "Texte de la recherche&nbsp;:"
+
+#, fuzzy
+#~ msgid "Search Submit:"
+#~ msgstr "Soumission de la recherche&nbsp;:"
+
+#, fuzzy
+#~ msgid "Use theme's <code>searchform.php</code>?"
+#~ msgstr "Utiliser le thème <code>searchform.php</code> ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "tags."
+#~ msgstr ""
+#~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
+#~ "mots-clefs."
+
+#, fuzzy
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#, fuzzy
+#~ msgid "Flat"
+#~ msgstr "Plat"
+
+#, fuzzy
+#~ msgid "Pad counts?"
+#~ msgstr "Compte Pad ?"
+
+#, fuzzy
+#~ msgid "Browse:"
+#~ msgstr "Parcourir&nbsp;:"
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#, fuzzy
+#~ msgid "g:i a"
+#~ msgstr "G \\h i \\m\\i\\n"
+
+#, fuzzy
+#~ msgid "Minute %1$s"
+#~ msgstr "Minute %1$s"
+
+#, fuzzy
+#~ msgid "i"
+#~ msgstr "i"
+
+#, fuzzy
+#~ msgid "g a"
+#~ msgstr "g a"
+
+#, fuzzy
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#, fuzzy
+#~ msgid "F"
+#~ msgstr "f"
+
+#, fuzzy
+#~ msgid "d"
+#~ msgstr "d"
+
+#, fuzzy
+#~ msgid "Week %1$s"
+#~ msgstr "Semaine %1$s"
+
+#, fuzzy
+#~ msgid "W"
+#~ msgstr "O"
+
+#, fuzzy
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Résultats de la recherche pour &quot;%1$s&quot;"
+
+#, fuzzy
+#~ msgid "404 Not Found"
+#~ msgstr "404 Non trouvé"
+
+#, fuzzy
+#~ msgid "Split"
+#~ msgstr "Diviser"
+
+#, fuzzy
+#~ msgid "Merge"
+#~ msgstr "Fusionner"
+
+#, fuzzy
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#, fuzzy
+#~ msgid "F j, Y"
+#~ msgstr "d.m.Y"
+
+#, fuzzy
+#~ msgid "Articles in this series"
+#~ msgstr "Articles dans cette séries"
+
+#, fuzzy
+#~ msgid "Series"
+#~ msgstr "Séries"
+
+#, fuzzy
+#~ msgid "Stylesheet"
+#~ msgstr "Feuille de style"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Valeur par défaut"
+
+#, fuzzy
+#~ msgid "One Column"
+#~ msgstr "Une colonne"
+
+#, fuzzy
+#~ msgid "Two Columns, Left"
+#~ msgstr "Deux colonnes, à gauche"
+
+#, fuzzy
+#~ msgid "Two Columns, Right"
+#~ msgstr "Deux colonnes, à droite"
+
+#, fuzzy
+#~ msgid "Three Columns, Left"
+#~ msgstr "Trois colonnes, à gauche"
+
+#, fuzzy
+#~ msgid "Three Columns, Right"
+#~ msgstr "Trois colonnes, à droite"
+
+#, fuzzy
+#~ msgid "Three Columns, Center"
+#~ msgstr "Trois colonnes, centrée"
+
+#, fuzzy
+#~ msgid "Layout"
+#~ msgstr "Structure"
+
+#, fuzzy
+#~ msgid ""
+#~ "Layout is a theme-specific structure for the single view of the post."
+#~ msgstr ""
+#~ "Layout est une structure thématique spécifique pour la vue de l'article "
+#~ "unique."
+
+#, fuzzy
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid "Website"
+#~ msgstr "Site Web"
+
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "Commentaire"
+
+#, fuzzy
+#~ msgid ""
+#~ "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+#~ "comment."
+#~ msgstr ""
+#~ "Vous devez être <a href=\"%1$s\"> title=\"connecté\"</ a> pour poster un "
+#~ "commentaire."
+
+#, fuzzy
+#~ msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+#~ msgstr "Connecté en tant que <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#, fuzzy
+#~ msgid "Log out of this account"
+#~ msgstr "Se déconnecter de ce compte"
+
+#, fuzzy
+#~ msgid "Log out &raquo;"
+#~ msgstr "Déconnexion &raquo;"
+
+#, fuzzy
+#~ msgid "Leave a Reply"
+#~ msgstr "Laisser une réponse"
+
+#, fuzzy
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Répondre à %s"
+
+#, fuzzy
+#~ msgid "Click here to cancel reply."
+#~ msgstr "Cliquez ici pour annuler la réponse."
+
+#, fuzzy
+#~ msgid "Post Comment"
+#~ msgstr "Laisser un commentaire"
+
+#, fuzzy
+#~ msgid "Archive for %1$s"
+#~ msgstr "Archive pour %s"
+
+#, fuzzy
+#~ msgid "Archive for minute %1$s"
+#~ msgstr "Archive pour %1$s minute "
+
+#, fuzzy
+#~ msgid "F jS, Y"
+#~ msgstr "l j F Y"
+
+#, fuzzy
+#~ msgid "Archive for week %1$s of %2$s"
+#~ msgstr "Archive pour la semaine %1$s de %2$s"
+
+#, fuzzy
+#~ msgid "%1$s Page %2$s"
+#~ msgstr "%1$s Page %2$s"
+
+#, fuzzy
+#~ msgid "Copyright (c) %1$s"
+#~ msgstr "Copyright (c) %1$s"
+
+#, fuzzy
+#~ msgid "l, F jS, Y, g:i a"
+#~ msgstr "l j F Y g:i a"
+
+#, fuzzy
+#~ msgid ""
+#~ "<code>%1$s</code> &mdash; This function has been removed or replaced by "
+#~ "another function."
+#~ msgstr ""
+#~ "<code>%1$s</code> &mdash; Cette fonction a été enlevée ou remplacée par "
+#~ "une autre fonction."
+
+#, fuzzy
+#~ msgctxt "nav menu location"
+#~ msgid "Primary"
+#~ msgstr "Principal"
+
+#, fuzzy
+#~ msgctxt "nav menu location"
+#~ msgid "Secondary"
+#~ msgstr "Secondaire"
+
+#, fuzzy
+#~ msgctxt "nav menu location"
+#~ msgid "Subsidiary"
+#~ msgstr "Subsidiaire"
+
+#, fuzzy
+#~ msgid "Copyright &#169; [the-year] [site-link]."
+#~ msgstr "Copyright &#169; [the-year] [site-link]."
+
+#, fuzzy
+#~ msgid "Powered by [wp-link], [theme-link], and [child-link]."
+#~ msgstr "Propulsé par [wp-link], [theme-link], et [child-link]."
+
+#, fuzzy
+#~ msgid "Powered by [wp-link] and [theme-link]."
+#~ msgstr "Propulsé par [wp-link] et [theme-link]."
+
+#, fuzzy
+#~ msgid "State-of-the-art semantic personal publishing platform"
+#~ msgstr "Plate-forme de publication personnelle à la pointe de la sémantique"
+
+#, fuzzy
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+
+#, fuzzy
+#~ msgid "%s WordPress Theme"
+#~ msgstr "%s Thème WordPress"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr "Déconnexion"
+
+#, fuzzy
+#~ msgid "Log in"
+#~ msgstr "Connexion"
+
+#, fuzzy
+#~ msgid "This page loaded in %1$s seconds with %2$s database queries."
+#~ msgstr ""
+#~ "Cette page se charge en %1$s secondes avec %2$s requêtes dans la base de "
+#~ "données."
+
+#, fuzzy
+#~ msgid "Edit %1$s"
+#~ msgstr "Modifier %1$s"
+
+#, fuzzy
+#~ msgid "Leave a response"
+#~ msgstr "Laisser une r&eacute;ponse"
+
+#, fuzzy
+#~ msgid "%1$s Response"
+#~ msgstr "%1$s Réponse"
+
+#, fuzzy
+#~ msgid "%1$s Responses"
+#~ msgstr "%1$s réponses"
+
+#, fuzzy
+#~ msgid "Comment on %1$s"
+#~ msgstr "Commentaire sur %1$s"
+
+#, fuzzy
+#~ msgid "(Untitled)"
+#~ msgstr "(Sans titre)"
+
+#, fuzzy
+#~ msgid "Shortlink"
+#~ msgstr "Lien court"
+
+#, fuzzy
+#~ msgid "Permalink"
+#~ msgstr "Permalien"
+
+#, fuzzy
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s à %2$s"
+
+#, fuzzy
+#~ msgid "Permalink to comment %1$s"
+#~ msgstr "Permalien de commentaire %1$s"
+
+#, fuzzy
+#~ msgid "Reply"
+#~ msgstr "Écrire une réponse"
+
+#, fuzzy
+#~ msgid "Log in to reply."
+#~ msgstr "Connectez-vous pour répondre."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "Primary"
+#~ msgstr "Principal"
+
+#, fuzzy
+#~ msgid "The main (primary) widget area, most often used as a sidebar."
+#~ msgstr ""
+#~ "La zone de widget principale, la plus souvent utilisée comme barre "
+#~ "latérale."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "Secondary"
+#~ msgstr "Secondaire"
+
+#, fuzzy
+#~ msgid ""
+#~ "The second most important widget area, most often used as a secondary "
+#~ "sidebar."
+#~ msgstr ""
+#~ "La seconde plus importante zone de widgets, la plus souvent utilisée "
+#~ "comme une barre latérale secondaire."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "Subsidiary"
+#~ msgstr "Subsidiaire"
+
+#, fuzzy
+#~ msgid "A widget area loaded in the footer of the site."
+#~ msgstr "Une zone widget chargée dans le pied de page du site."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "Header"
+#~ msgstr "En-tête"
+
+#, fuzzy
+#~ msgid "Displayed within the site's header area."
+#~ msgstr "Affiché dans la zone d'en-tête du site."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "Before Content"
+#~ msgstr "Avant le contenu"
+
+#, fuzzy
+#~ msgid "Loaded before the page's main content area."
+#~ msgstr "Chargé avant la zone de contenu de la page principale."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "After Content"
+#~ msgstr "Après le contenu"
+
+#, fuzzy
+#~ msgid "Loaded after the page's main content area."
+#~ msgstr "Chargé après la zone de contenu de la page principale."
+
+#, fuzzy
+#~ msgctxt "sidebar"
+#~ msgid "After Singular"
+#~ msgstr "Après singulier"
+
+#, fuzzy
+#~ msgid ""
+#~ "Loaded on singular post (page, attachment, etc.) views before the "
+#~ "comments area."
+#~ msgstr ""
+#~ "Chargé sur les articles uniques (page, attachement, etc..) avant la zone "
+#~ "de commentaires."

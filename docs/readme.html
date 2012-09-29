@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>A guide to the Live Wire theme</title>
+
+<style type="text/css">body{width:750px;margin:36px auto 60px auto;font:16px/25px Georgia,Times,'Times New Roman',serif}a:link,a:visited{color:#2f6eb9;text-decoration:none}a:hover,a:active{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin:40px 0 30px 0;color:#000;font-weight:bold;font-family:Arial,sans-serif}h1{margin-top:80px;font-size:2.2em}code{padding:0 3px;background:#eee}pre code{padding:0}pre{padding:9px;background:#eee;border:1px solid #ccc}ul{list-style:square}p.first{font-size:21px}p.second{font-size:15px}ul.space li{margin-bottom:10px}.section{overflow:hidden}.columns-2{float:left;width:350px;margin:0 0 21px 25px}.columns-3{float:left;width:230px;margin:0 0 21px 20px}</style>
+
+</head>
+<body>
+
+<h1>Live Wire WordPress theme</h1>
+
+<p class="first"><em>Live Wire</em> is a parent theme for WordPress.  </p>
+
+<p class="second">This theme is a parent theme.  <strong>All modification</strong> should be made via a child theme.</p>
+
+<h2>Features</h2>
+
+<p><em>Live Wire</em> is built on <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core theme framework">Hybrid Core</a> framework. I can't thank enough <a href="http://justintadlock.com" title="Justin Tadlock">Justin Tadlock</a> who has created it. This theme rolemodel is <a href="http://themehybrid.com/themes/my-life" title="My Life">My Life</a> theme, so check out all the <a href="http://themehybrid.com/themes" title="Hybrid Themes">Hybrid Themes</a>.</p>
+
+<ul>
+	<li>Per-post layouts which means that you can choose one column or two column layouts. Content on the left or right.</li>
+	<li>Post setting that allows you to add a custom stylesheet for individual posts.</li>
+	<li>A smart breadcrumb system.</li>
+	<li>Built-in pagination.</li>
+	<li>Post thumbnails that work with WordPress featured image functionality and provide extra features.</li>
+	<li>Multiple sidebars areas: Header, Primary, Subsidiary and After Singular.</li>
+	<li>Dynamic body, post, and comment <acronym title="Cascading Style Sheets">CSS</acronym> classes.</li>
+	<li>Fully internationalized, so you can translate the theme in any language. You should place your translations files to child theme <code>languages</code> folder.</li>
+	<li>Built-in WordPress menu system. There are three menus in the theme: Primary, Secondary and Subsidiary.</li>
+	<li>Context-aware action and filter hooks.</li>
+	<li>Some of the most-used filter hooks are shortcode-ready and have accompanying shortcodes.</li>
+	<li>Theme settings page that allows you to add footer text.</li>
+	<li>Ability to create custom templates for any post type in multiple ways.</li>
+	<li>Highly-configurable widgets that give you full control over their display.</li>
+	<li>Widget areas are content-aware, meaning that they only appear if they contain active widgets.</li>
+	<li>Support for Post Formats.</li>
+	<li>Theme was designed with <a href="http://www.lukew.com/ff/entry.asp?933" title="Mobile First">Mobile First</a> attitude. It uses <a href="http://tinynav.viljamis.com/" title="Tiny Nav">Tiny Nav</a> for menus, <a href="https://github.com/scottjehl/Respond" title="Respond">Respond js</a> for legacy browsers and <a href="http://fitvidsjs.com/" title="Fit Vids">Fit Vids</a> for videos.</li>
+</ul>
+
+<h2>Child themes</h2>
+
+<p><em>Live Wire</em> is a parent theme, so create a child theme for any customizations.</p>
+
+<ul>
+	<li>Create a theme folder in your <code>/wp-content/themes</code> directory called <code>live-wire-child</code>.</li>
+	<li>After that create a <code>style.css</code> file in <code>/wp-content/themes/live-wire-child</code> folder.</li>
+	<li>At the top of your <code>style.css</code> file, add the below information.</li>
+</ul>
+
+<pre><code>/**
+ * Theme Name: Live Wire Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: Describe your child theme.
+ * Version: 0.1
+ * Author: Your Name
+ * Author URI: http://link-to-your-site.com
+ * Tags: Some, Tags
+ * Template: live-wire
+ */</code></pre>
+
+<p>After that you might want to import all the styles from parent theme.</p>
+
+<pre><code>@import url( '../live-wire/style.css' );
+
+/* Custom code goes below here. */</code></pre>
+
+<p>This is officially-supported way of modifying themes in WordPress.</p>
+
+<p><strong>Note!</strong>
+If you want to use media queries in child theme and support them in browsers like IE7 and IE8,
+you should copy and paste css rules from parent theme <code>style.css</code> to child theme <code>style.css</code> and remove line <code>@import url( '../live-wire/style.css' );</code>
+</p>
+<p>
+Remember to change all the url in fonts and backgound like this. <br />
+<code>src: url('../live-wire/fonts/league_gothic-webfont.eot'); </code><br />
+<code>background: url(../live-wire/images/menu-plus.png) no-repeat 0 0;</code>
+</p>
+
+<h2>Supported plugins</h2>
+<p>Live Wire includes base CSS for <a href="http://www.gravityforms.com/" title="Gravity Forms">Gravity Forms</a> and <a href="http://wordpress.org/extend/plugins/hybrid-tabs/" title="Hybrid Tabs">Hybrid Tabs</a> plugin. CSS can be found in the bottom of the <code>style.css</code>.</p>
+
+<h2>Tips</h2>
+
+<h3>Change default layout</h3>
+
+<p>
+Live Wire theme has two column layout by default, content on the left and sidebar on the right. You can overwrite this in post
+editor by choosing layout for that certain post:
+</p>
+<ul>
+<li>Default</li>
+<li>One Column</li>
+<li>Two Columns, Left (theme default)</li>
+<li>Two Columns, Right</li>
+</ul>
+
+<p>Now you might want to change default layout for all post/pages. Let's say you want two columns layout, content on the right and sidebar on the left. Add this in child themes <code>functions.php</code> inside setup function.</p>
+
+<pre><code>add_filter( 'get_theme_layout', 'my_theme_layout' );</code></pre>
+
+<p>And this after setup function.</p>
+
+<pre><code>
+function my_theme_layout( $layout ) {
+
+	if ( 'layout-default' == $layout )
+		$layout = 'layout-2c-r';
+
+	return $layout;
+}
+</code></pre>
+
+<h3>Add word Menu only in dropdown navigation</h3>
+<p>
+Since version 0.1.5 I have added words <em>Primary navigation...</em> and <em>Secondary navigation...</em> to TinyNav menu. Those words are only shown in TinyNav menu navigation.
+</p>
+
+<h3>Video post archive and video Thumbnail for youtube videos </h3>
+<p>Video Post type archive is displayd just a little differently. You can add Custom link in Menu using link <code>http://mydomain.com/type/video/</code>. 
+Youtube videos have Thumbnail pictures in URL <code>http://img.youtube.com/vi/ID/0.jpg</code>. Just replace ID with your video ID like A7CI4yb3eu4.
+</p>
+<p>
+Now, you can add this Thumbnail by adding Custom Field <code>Thumbnail</code> with value <code>http://img.youtube.com/vi/ID/0.jpg</code> in post editor. 
+If you don't see custom Custom Field in post editor, click Screen options upper right and click <code>Custom Fields</code>.</p>
+
+<h2>Action Hooks reference</h2>
+<p>
+With action hooks you can add your custom code in a certain points in the theme. If you open <code>header.php</code> for example you'll
+see this line of code: 
+</p>
+
+<pre><code>&lt;?php do_atomic( 'open_body' ); // live-wire_open_body ?&gt;</code></pre>
+
+<p>
+It means that you can add your code in that spot  without modifying <code>header.php</code> file. 
+You do it using child theme <code>functions.php</code>. Add this inside setup function.
+</p>
+
+<pre><code>add_action( "{$prefix}_open_body", 'my_open_body_code' );</code></pre>
+
+<p>And this after setup function.</p>
+
+<pre><code>
+function my_open_body_code() {
+
+	echo 'My code';
+
+}
+</code></pre>
+
+<p>Here are all the hooks used in Live Wire theme.</p>
+
+<ul>
+<li><strong>header.php</strong>
+	<ul>
+	<li>live-wire_open_body</li>
+	<li>live-wire_before_header</li>
+	<li>live-wire_open_header</li>
+	<li>live-wire_header</li>
+	<li>live-wire_close_header</li>
+	<li>live-wire_after_header</li>
+	<li>live-wire_before_main</li>
+	<li>live-wire_open_main</li>
+	</ul>
+</li>
+<li><strong>menu-primary.php</strong>
+	<ul>
+	<li>live-wire_before_menu_primary</li>
+	<li>live-wire_open_menu_primary</li>
+	<li>live-wire_close_menu_primary</li>
+	<li>live-wire_after_menu_primary</li>
+	</ul>
+</li>
+<li><strong>menu-secondary.php</strong>
+	<ul>
+	<li>live-wire_before_menu_secondary</li>
+	<li>live-wire_open_menu_secondary</li>
+	<li>live-wire_close_menu_secondary</li>
+	<li>live-wire_after_menu_secondary</li>
+	</ul>
+</li>
+<li><strong>404.php</strong>, <strong>attachment-image.php</strong>, <strong>content-*.php</strong>, <strong>index.php</strong>, <strong>search.php</strong>, <strong>taxonomy-post_format-video.php</strong>
+	<ul>
+	<li>live-wire_before_content</li>
+	<li>live-wire_open_content</li>
+	<li>live-wire_before_entry</li>
+	<li>live-wire_open_entry</li>
+	<li>live-wire_close_entry</li>
+	<li>live-wire_after_entry</li>
+	<li>live-wire_after_singular (not in 404.php, search.php and taxonomy-post_format-video.php)</li>
+	<li>live-wire_close_content</li>
+	<li>live-wire_after_content</li>
+	</ul>
+</li>
+<li><strong>comment.php</strong>
+	<ul>
+	<li>live-wire_before_comment</li>
+	<li>live-wire_open_comment</li>
+	<li>live-wire_close_comment</li>
+	<li>live-wire_after_comment</li>
+	</ul>
+</li>
+<li><strong>comments.php</strong>
+	<ul>
+	<li>live-wire_before_comment_list</li>
+	<li>live-wire_after_comment_list</li>
+	</ul>
+</li>
+<li><strong>sidebar-primary.php</strong>
+	<ul>
+	<li>live-wire_before_sidebar_primary</li>
+	<li>live-wire_open_sidebar_primary</li>
+	<li>live-wire_close_sidebar_primary</li>
+	<li>live-wire_after_sidebar_primary</li>
+	</ul>
+</li>
+<li><strong>footer.php</strong>
+	<ul>
+	<li>live-wire_close_main</li>
+	<li>live-wire_after_main</li>
+	<li>live-wire_before_footer</li>
+	<li>live-wire_open_footer</li>
+	<li>live-wire_footer</li>
+	<li>live-wire_close_footer</li>
+	<li>live-wire_after_footer</li>
+	<li>live-wire_close_body</li>
+	</ul>
+</li>
+<li><strong>sidebar-subsidiary.php</strong>
+	<ul>
+	<li>live-wire_before_sidebar_subsidiary</li>
+	<li>live-wire_open_sidebar_subsidiary</li>
+	<li>live-wire_close_sidebar_subsidiary</li>
+	<li>live-wire_after_sidebar_subsidiary</li>
+	</ul>
+</li>
+<li><strong>menu-subsidiary.php</strong>
+	<ul>
+	<li>live-wire_before_menu_subsidiary</li>
+	<li>live-wire_open_menu_subsidiary</li>
+	<li>live-wire_close_menu_subsidiary</li>
+	<li>live-wire_after_menu_subsidiary</li>
+	</ul>
+</li>
+</ul>
+
+
+<h2>Theme support</h2>
+
+<p>Support for the <em>Live Wire</em> theme is not offered on the WordPress support forums.  There is a community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a> where support is offered for this theme.  You are encouraged to sign up to the site to use its support forums and become a part of the community.</p>
+
+<h2>Credits</h2>
+
+<p>Live Wire is build on <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core">Hybrid Core</a> framework by <a href="http://justintadlock.com/" title="Justin Tadlock">Justin Tadlock</a>.</p>
+
+<p>Theme uses</p>
+
+<ul>
+<li><a href="http://www.theleagueofmoveabletype.com/league-gothic" title="League Gothic">League Gothic</a> font, which is licensed under <a href="http://scripts.sil.org/OFL" title="OFL">OFL</a>.</li>
+<li><a href="http://fitvidsjs.com" title="FitVids">FitVids</a>, which is licensed under <a href="http://sam.zoy.org/wtfpl/" title="WTFPL">WTFPL</a>.</li>
+<li><a href="http://tinynav.viljamis.com/" title="TinyNav">TinyNav</a>, which is licensed under <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT">MIT</a>.</li>
+<li><a href="https://github.com/scottjehl/Respond" title="Respond.js">Respond.js</a>, which is licensed under <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT">MIT</a>.</li>
+</ul>
+
+
+<h2>Copyright &amp; license</h2>
+
+<p><em>Live Wire</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 (<acronym title="GNU General Public License">GPL</acronym>).</p>
+
+<p>This theme is copyrighted to <a href="http://foxnet.fi" title="Sami Keijonen">Sami Keijonen</a>.</p>
+
+<p>2012 &copy; Sami Keijonen.  All rights reserved.</p>
+
+</body>
+</html>

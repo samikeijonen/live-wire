@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Wire\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 19:49+0200\n"
+"PO-Revision-Date: 2012-09-02 19:49+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ live-wire
+#: 404.php:26
+msgid "What happened!?"
+msgstr "Was ist passiert!?"
+
+# @ live-wire
+#: 404.php:31
+#, php-format
+msgid ""
+"You tried going to %s, which doesn't exist. You can try navigate or search."
+msgstr ""
+"Sie wollten die Seite %s ansehen, die es aber nicht gibt. Sie können die "
+"Navigation benutzen oder eine Suche absetzen."
+
+# @ live-wire
+#: attachment-image.php:37 content-aside.php:26 content-aside.php:35
+#: content-audio.php:26 content-audio.php:35 content-gallery.php:26
+#: content-gallery.php:39 content-image.php:26 content-image.php:35
+#: content-link.php:26 content-link.php:43 content-page.php:24
+#: content-page.php:37 content-quote.php:20 content-status.php:22
+#: content-video.php:26 content-video.php:35 content.php:26 content.php:41
+#: taxonomy-post_format-video.php:44
+msgid "Pages:"
+msgstr "Seiten:"
+
+# @ live-wire
+#: attachment-image.php:43
+msgid "Gallery"
+msgstr "Galerie"
+
+# @ live-wire
+#: attachment-image.php:50
+msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
+msgstr "Veröffentlicht am [entry-published] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: comment.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar muss noch moderiert werden."
+
+# @ live-wire
+#: comments.php:27
+msgid "No Responses"
+msgstr "Keine Kommentare"
+
+# @ live-wire
+#: comments.php:27
+msgid "One Response"
+msgstr "Ein Kommentar"
+
+# @ live-wire
+#: comments.php:27
+msgid "% Responses"
+msgstr "% Kommentare"
+
+# @ live-wire
+#: comments.php:31
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Seite %1$s von %2$s"
+
+# @ live-wire
+#: comments.php:50
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+"Die Kommentarfunktion ist deaktiviert, aber <a href=\"%1$s\" title="
+"\"Trackback URL für diesen Eintrag\">Trackbacks</a> und Pingbacks sind "
+"möglich."
+
+# @ live-wire
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "Die Kommentarfunktion ist deaktiviert."
+
+# @ live-wire
+#: content-aside.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]"
+msgstr ""
+"[post-format-link] veröffentlicht am [entry-published] [entry-edit-link "
+"before=\"| \"]"
+
+# @ live-wire
+#: content-aside.php:29 content-audio.php:29 content-gallery.php:29
+#: content-image.php:29 content-link.php:29 content-video.php:29
+#: content.php:29
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Veröffentlicht unter \"] [entry-"
+"terms before=\"Tags \"]"
+
+# @ live-wire
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:42
+#: content-image.php:38 content-link.php:48 content-quote.php:26
+#: content-video.php:38
+msgid ""
+"[post-format-link] published on [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] veröffentlicht am [entry-published] [entry-permalink "
+"before=\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before="
+"\"| \"]"
+
+# @ live-wire
+#: content-audio.php:22 content-gallery.php:22 content-image.php:22
+#: content-link.php:22 content-video.php:22
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"[post-format-link] veröffentlicht am [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content-quote.php:24
+msgid ""
+"[post-format-link] published on [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] "
+"[entry-terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] veröffentlicht am [entry-published] [entry-edit-link "
+"before=\"| \"]<br />[entry-terms taxonomy=\"category\" before="
+"\"Veröffentlicht unter \"] [entry-terms before=\"Tags \"]"
+
+# @ live-wire
+#: content-status.php:26
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-edit-link before=\"| "
+"\"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-"
+"terms before=\"Tagged \"]"
+msgstr ""
+"[post-format-link] aktualisiert am [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Veröffentlicht "
+"unter \"] [entry-terms before=\"Tags \"]"
+
+# @ live-wire
+#: content-status.php:28
+msgid ""
+"[post-format-link] updated on [entry-published] [entry-permalink before=\"| "
+"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgstr ""
+"[post-format-link] aktualisiert am [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+
+# @ live-wire
+#: content-video.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: content.php:22 content.php:37
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link before="
+"\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+"Veröffentlicht von [entry-author] am [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
+
+# @ live-wire
+#: content.php:44
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\"| Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Veröffentlicht unter \"] [entry-"
+"terms before=\"| Tags \"]"
+
+# @ live-wire
+#: header.php:77
+msgid "You are here:"
+msgstr "Sie sind hier:"
+
+# @ live-wire
+#: loop-error.php:16
+msgid "Apologies, but no entries were found."
+msgstr "Es wurden keine Beiträge gefunden."
+
+# @ live-wire
+#: loop-meta.php:89
+#, php-format
+msgid "You are browsing the search results for \"%s\""
+msgstr "Suchergebnisse für \"%s\""
+
+# @ live-wire
+#: loop-meta.php:98
+msgid "Archives by date"
+msgstr "Archive nach Datum"
+
+# @ live-wire
+#: loop-meta.php:102
+msgid "You are browsing the site archives by date."
+msgstr "Sie sehen die nach Datum geordneten Archive."
+
+# @ hybrid-core
+# @ live-wire
+#: loop-meta.php:126
+msgid "Archives"
+msgstr "Archive"
+
+# @ live-wire
+#: loop-meta.php:130
+msgid "You are browsing the site archives."
+msgstr "Sie sehen die Archive der Website."
+
+# @ live-wire
+#: loop-nav.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr "<span class=\"meta-nav\">&larr;</span> Zurück zum Eintrag"
+
+# @ live-wire
+#: loop-nav.php:28 loop-nav.php:32 loop-nav.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Zurück"
+
+# @ live-wire
+#: loop-nav.php:29 loop-nav.php:32
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiter <span class=\"meta-nav\">&rarr;</span>"
+
+# @ live-wire
+#: loop-nav.php:34
+msgid "Next &rarr;"
+msgstr "Weiter &rarr;"
+
+#: menu-primary.php:22
+msgid "Primary Navigation..."
+msgstr ""
+
+#: menu-secondary.php:22
+msgid "Secondary Navigation..."
+msgstr ""
+
+# @ live-wire
+#: search.php:40
+msgid "Published on [entry-published]"
+msgstr "Veröffentlicht am [entry-published]"
+
+#: searchform.php:16 searchform.php:17
+msgid "Search"
+msgstr "Suche"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:40
+msgid ""
+"[post-format-link] published on [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-views before=\" | \" after=\" views \"] [entry-edit-"
+"link before=\" | \"]"
+msgstr ""
+"[post-format-link] veröffentlicht am [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-views before=\" | \" after=\" views \"] [entry-edit-"
+"link before=\" | \"]"
+
+# @ live-wire
+#: taxonomy-post_format-video.php:47
+msgid ""
+"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+"before=\" | Tagged \"]"
+msgstr ""
+"[entry-terms taxonomy=\"category\" before=\"Veröffentlicht unter \"] [entry-"
+"terms before=\" | Tags \"]"

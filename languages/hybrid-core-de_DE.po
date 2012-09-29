@@ -1,0 +1,962 @@
+# Translation of Trunk in German
+# This file is distributed under the same license as the Trunk package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ungrid theme - Hybrid core - German\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-26 22:47+0200\n"
+"PO-Revision-Date: 2012-07-26 22:48+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Johann Kratzik <csswebsite@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: AUSTRIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _x:1,2c;__;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural;translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/meta-box-post-seo.php:37
+msgid "SEO"
+msgstr "SEO"
+
+#: ../admin/meta-box-post-seo.php:70
+msgid "Document Title:"
+msgstr "Titel der Seite:"
+
+#: ../admin/meta-box-post-seo.php:76
+msgid "Meta Description:"
+msgstr "Meta Description:"
+
+#: ../admin/meta-box-post-seo.php:82
+msgid "Meta Keywords:"
+msgstr "Meta Keywords:"
+
+#: ../admin/meta-box-post-template.php:36
+msgid "Template"
+msgstr "Template"
+
+#: ../admin/meta-box-post-template.php:87
+msgid "No templates exist for this post type."
+msgstr "Für diesen Post Type gibt es keine Templates."
+
+#: ../admin/meta-box-theme-about.php:31
+#: ../admin/meta-box-theme-about.php:36
+#, php-format
+msgid "About %s"
+msgstr "Über %s"
+
+#: ../admin/meta-box-theme-about.php:61
+msgid "Theme:"
+msgstr "Theme:"
+
+#: ../admin/meta-box-theme-about.php:69
+msgid "Version:"
+msgstr "Version:"
+
+#: ../admin/meta-box-theme-about.php:77
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../admin/meta-box-theme-about.php:85
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: ../admin/meta-box-theme-footer.php:29
+msgid "Footer settings"
+msgstr "Einstellungen für die Fußzeile"
+
+#: ../admin/meta-box-theme-footer.php:52
+msgid "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</acronym> and/or shortcodes, which will be automatically inserted into your theme."
+msgstr "Sie können <acronym title=\"Hypertext Markup Language\">HTML</acronym> und/oder Shortcodes verwenden, die automatisch in Ihr Theme eingesetzt werden."
+
+#: ../admin/theme-settings.php:47
+#: ../admin/theme-settings.php:171
+#, php-format
+msgid "%s Theme Settings"
+msgstr "%s Theme-Optionen"
+
+#: ../admin/theme-settings.php:48
+msgid "Theme Settings"
+msgstr "Theme-Optionen"
+
+#: ../admin/theme-settings.php:172
+#, fuzzy
+msgid "Customize"
+msgstr "Benutzerdefiniert"
+
+#: ../admin/theme-settings.php:198
+msgid "Update Settings"
+msgstr "Einstellungen ändern"
+
+#: ../admin/theme-settings.php:255
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: ../admin/theme-settings.php:259
+msgid "Support"
+msgstr "Support"
+
+#: ../classes/widget-archives.php:32
+msgid "An advanced widget that gives you total control over the output of your archives."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Darstellung der Archive erlaubt."
+
+#: ../classes/widget-archives.php:44
+#: ../classes/widget-archives.php:141
+msgid "Archives"
+msgstr "Archive"
+
+#: ../classes/widget-archives.php:79
+msgid "Select Year"
+msgstr "Jahr wählen"
+
+#: ../classes/widget-archives.php:82
+msgid "Select Month"
+msgstr "Monat wählen"
+
+#: ../classes/widget-archives.php:85
+msgid "Select Week"
+msgstr "Woche wählen"
+
+#: ../classes/widget-archives.php:88
+msgid "Select Day"
+msgstr "Tag wählen"
+
+#: ../classes/widget-archives.php:91
+msgid "Select Post"
+msgstr "Artikel wählen"
+
+#: ../classes/widget-archives.php:154
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
+#: ../classes/widget-archives.php:154
+msgid "Daily"
+msgstr "Nach Tagen"
+
+#: ../classes/widget-archives.php:154
+msgid "Monthly"
+msgstr "Nach Monaten"
+
+#: ../classes/widget-archives.php:154
+msgid "Post By Post"
+msgstr "Nach Artikeln"
+
+#: ../classes/widget-archives.php:154
+msgid "Weekly"
+msgstr "Nach Wochen"
+
+#: ../classes/widget-archives.php:154
+msgid "Yearly"
+msgstr "Nach Jahren"
+
+#: ../classes/widget-archives.php:157
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: ../classes/widget-archives.php:157
+msgid "HTML"
+msgstr "HTML"
+
+#: ../classes/widget-archives.php:157
+msgid "Option"
+msgstr "Als Auswahlbox"
+
+#: ../classes/widget-archives.php:162
+#: ../classes/widget-authors.php:143
+#: ../classes/widget-bookmarks.php:187
+#: ../classes/widget-calendar.php:108
+#: ../classes/widget-categories.php:170
+#: ../classes/widget-nav-menu.php:133
+#: ../classes/widget-pages.php:157
+#: ../classes/widget-search.php:143
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../classes/widget-archives.php:198
+#: ../classes/widget-authors.php:191
+msgid "Show post count?"
+msgstr "Zeige Artikel-Zähler?"
+
+#: ../classes/widget-authors.php:32
+msgid "An advanced widget that gives you total control over the output of your author lists."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Darstellung der Autorenlisten erlaubt."
+
+#: ../classes/widget-authors.php:44
+#: ../classes/widget-authors.php:119
+msgid "Authors"
+msgstr "Autoren"
+
+#: ../classes/widget-authors.php:136
+#: ../classes/widget-bookmarks.php:178
+#: ../classes/widget-bookmarks.php:180
+#: ../classes/widget-categories.php:162
+#: ../classes/widget-pages.php:148
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: ../classes/widget-authors.php:136
+#: ../classes/widget-bookmarks.php:178
+#: ../classes/widget-bookmarks.php:180
+#: ../classes/widget-categories.php:162
+#: ../classes/widget-pages.php:148
+msgid "Descending"
+msgstr "Absteigend"
+
+#: ../classes/widget-authors.php:137
+msgid "Display Name"
+msgstr "Öffentlicher Name"
+
+#: ../classes/widget-authors.php:137
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../classes/widget-authors.php:137
+#: ../classes/widget-bookmarks.php:179
+#: ../classes/widget-bookmarks.php:181
+#: ../classes/widget-categories.php:163
+#: ../classes/widget-pages.php:149
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/widget-authors.php:137
+msgid "Nice Name"
+msgstr "Username"
+
+#: ../classes/widget-authors.php:137
+msgid "Post Count"
+msgstr "Anzahl der verfassten Beiträge"
+
+#: ../classes/widget-authors.php:137
+msgid "Registered"
+msgstr "Registriert"
+
+#: ../classes/widget-authors.php:137
+#: ../classes/widget-bookmarks.php:181
+msgid "URL"
+msgstr "URL"
+
+#: ../classes/widget-authors.php:137
+msgid "Login"
+msgstr "Login"
+
+#: ../classes/widget-authors.php:169
+#: ../classes/widget-categories.php:161
+msgid "List"
+msgstr "Liste"
+
+#: ../classes/widget-authors.php:169
+#: ../classes/widget-categories.php:161
+msgid "None"
+msgstr "Kein"
+
+#: ../classes/widget-authors.php:187
+msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+msgstr "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+
+#: ../classes/widget-authors.php:195
+msgid "Exclude admin?"
+msgstr "Admin ausschließen?"
+
+#: ../classes/widget-authors.php:199
+msgid "Show full name?"
+msgstr "Vollen Namen anzeigen?"
+
+#: ../classes/widget-authors.php:203
+#: ../classes/widget-categories.php:273
+msgid "Hide empty?"
+msgstr "Leere Felder ausblenden?"
+
+#: ../classes/widget-bookmarks.php:32
+msgid "An advanced widget that gives you total control over the output of your bookmarks (links)."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der Bookmarks (Links) erlaubt."
+
+#: ../classes/widget-bookmarks.php:44
+#: ../classes/widget-bookmarks.php:85
+#: ../classes/widget-bookmarks.php:148
+msgid "Bookmarks"
+msgstr "Bookmarks"
+
+#: ../classes/widget-bookmarks.php:179
+#: ../classes/widget-categories.php:163
+msgid "Count"
+msgstr "Anzahl"
+
+#: ../classes/widget-bookmarks.php:179
+#: ../classes/widget-bookmarks.php:181
+#: ../classes/widget-categories.php:163
+msgid "Name"
+msgstr "Name"
+
+#: ../classes/widget-bookmarks.php:179
+#: ../classes/widget-categories.php:163
+#: ../classes/widget-pages.php:149
+msgid "Slug"
+msgstr "Slug"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Description"
+msgstr "Description"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Length"
+msgstr "Länge"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Notes"
+msgstr "Notizen"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Owner"
+msgstr "Besitzer"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Random"
+msgstr "Zufällig"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Rating"
+msgstr "Bewertung"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Rel"
+msgstr "Beziehung"
+
+#: ../classes/widget-bookmarks.php:181
+#: ../classes/widget-categories.php:164
+msgid "RSS"
+msgstr "RSS"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Target"
+msgstr "Ziel"
+
+#: ../classes/widget-bookmarks.php:181
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: ../classes/widget-bookmarks.php:289
+msgid "Categorize?"
+msgstr "Kategorisieren?"
+
+#: ../classes/widget-bookmarks.php:293
+msgid "Show description?"
+msgstr "Beschreibung anzeigen?"
+
+#: ../classes/widget-bookmarks.php:297
+msgid "Hide invisible?"
+msgstr "Unsichtbare verstecken?"
+
+#: ../classes/widget-bookmarks.php:301
+msgid "Show rating?"
+msgstr "Bewertung anzeigen?"
+
+#: ../classes/widget-bookmarks.php:305
+msgid "Show updated?"
+msgstr "Aktualisiert anzeigen?"
+
+#: ../classes/widget-bookmarks.php:309
+msgid "Show images?"
+msgstr "Bilder anzeigen?"
+
+#: ../classes/widget-bookmarks.php:313
+msgid "Show name?"
+msgstr "Namen anzeigen?"
+
+#: ../classes/widget-bookmarks.php:317
+msgid "Show private?"
+msgstr "Private anzeigen?"
+
+#: ../classes/widget-calendar.php:32
+msgid "An advanced widget that gives you total control over the output of your calendar."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige des Kalenders erlaubt."
+
+#: ../classes/widget-calendar.php:44
+#: ../classes/widget-calendar.php:99
+msgid "Calendar"
+msgstr "Kalender"
+
+#: ../classes/widget-calendar.php:113
+msgid "One-letter abbreviation?"
+msgstr "Abkürzung für Wochentage: 1 Buchstabe?"
+
+#: ../classes/widget-categories.php:32
+msgid "An advanced widget that gives you total control over the output of your category links."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der Kategorie-Links erlaubt."
+
+#: ../classes/widget-categories.php:44
+#: ../classes/widget-categories.php:133
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../classes/widget-categories.php:163
+msgid "Term Group"
+msgstr "Begriffsgruppe"
+
+#: ../classes/widget-categories.php:164
+msgid "Atom"
+msgstr "Atom"
+
+#: ../classes/widget-categories.php:164
+msgid "RDF"
+msgstr "RDF"
+
+#: ../classes/widget-categories.php:164
+msgid "RSS 2.0"
+msgstr "RSS 2.0"
+
+#: ../classes/widget-categories.php:261
+#: ../classes/widget-pages.php:256
+msgid "Hierarchical?"
+msgstr "Hierarchisch?"
+
+#: ../classes/widget-categories.php:265
+msgid "Use description?"
+msgstr "Beschreibung verwenden?"
+
+#: ../classes/widget-categories.php:269
+msgid "Show count?"
+msgstr "Artikel-Anzahl anzeigen?"
+
+#: ../classes/widget-nav-menu.php:32
+msgid "An advanced widget that gives you total control over the output of your menus."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der Menüs erlaubt."
+
+#: ../classes/widget-nav-menu.php:44
+msgid "Navigation Menu"
+msgstr "Individuelles Menü"
+
+#: ../classes/widget-nav-menu.php:109
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../classes/widget-pages.php:32
+msgid "An advanced widget that gives you total control over the output of your page links."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der Seiten-Links erlaubt."
+
+#: ../classes/widget-pages.php:44
+#: ../classes/widget-pages.php:123
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../classes/widget-pages.php:149
+msgid "Author"
+msgstr "Autor"
+
+#: ../classes/widget-pages.php:149
+msgid "Date"
+msgstr "Datum"
+
+#: ../classes/widget-pages.php:149
+msgid "Menu Order"
+msgstr "Menüreihenfolge"
+
+#: ../classes/widget-pages.php:149
+#: ../classes/widget-pages.php:150
+msgid "Modified"
+msgstr "Geändert"
+
+#: ../classes/widget-pages.php:149
+msgid "Title"
+msgstr "Titel"
+
+#: ../classes/widget-pages.php:150
+msgid "Created"
+msgstr "Erstellt"
+
+#: ../classes/widget-search.php:33
+msgid "An advanced widget that gives you total control over the output of your search form."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige des Suchformulars erlaubt."
+
+#: ../classes/widget-search.php:45
+#: ../classes/widget-search.php:131
+msgid "Search"
+msgstr "Suche"
+
+#: ../classes/widget-search.php:147
+msgid "Search Label:"
+msgstr "Such-Label:"
+
+#: ../classes/widget-search.php:151
+msgid "Search Text:"
+msgstr "Text im Suchfeld:"
+
+#: ../classes/widget-search.php:158
+msgid "Search Submit:"
+msgstr "Text des Suchbuttons:"
+
+#: ../classes/widget-search.php:163
+msgid "Use theme's <code>searchform.php</code>?"
+msgstr "Die <code>searchform.php</code> des Themes verwenden?"
+
+#: ../classes/widget-tags.php:32
+msgid "An advanced widget that gives you total control over the output of your tags."
+msgstr "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der Tag-Links (Schlagwörter) erlaubt."
+
+#: ../classes/widget-tags.php:44
+#: ../classes/widget-tags.php:143
+msgid "Tags"
+msgstr "Tags"
+
+#: ../classes/widget-tags.php:171
+msgid "View"
+msgstr "Ansehen"
+
+#: ../classes/widget-tags.php:171
+#: ../extensions/breadcrumb-trail.php:389
+#: ../extensions/breadcrumb-trail.php:422
+#: ../extensions/breadcrumb-trail.php:437
+#: ../extensions/breadcrumb-trail.php:465
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../classes/widget-tags.php:172
+msgid "Flat"
+msgstr "Unformatiert"
+
+#: ../classes/widget-tags.php:288
+msgid "Pad counts?"
+msgstr "Pad counts?"
+
+#: ../extensions/breadcrumb-trail.php:44
+msgid "Browse:"
+msgstr "Browse:"
+
+#: ../extensions/breadcrumb-trail.php:47
+msgid "Home"
+msgstr "Startseite"
+
+#: ../extensions/breadcrumb-trail.php:301
+#: ../functions/context.php:423
+msgid "g:i a"
+msgstr "g:i a"
+
+#: ../extensions/breadcrumb-trail.php:304
+#, php-format
+msgid "Minute %1$s"
+msgstr "Minute %1$s"
+
+#: ../extensions/breadcrumb-trail.php:304
+#: ../functions/context.php:426
+msgid "i"
+msgstr "i"
+
+#: ../extensions/breadcrumb-trail.php:307
+#: ../functions/context.php:429
+msgid "g a"
+msgstr "g a"
+
+#: ../extensions/breadcrumb-trail.php:318
+#: ../extensions/breadcrumb-trail.php:324
+#: ../extensions/breadcrumb-trail.php:329
+#: ../extensions/breadcrumb-trail.php:334
+#: ../extensions/breadcrumb-trail.php:521
+#: ../functions/context.php:435
+#: ../functions/context.php:441
+#: ../functions/core-seo.php:90
+msgid "Y"
+msgstr "Y"
+
+#: ../extensions/breadcrumb-trail.php:319
+#: ../extensions/breadcrumb-trail.php:330
+#: ../extensions/breadcrumb-trail.php:525
+msgid "F"
+msgstr "F"
+
+#: ../extensions/breadcrumb-trail.php:320
+#: ../extensions/breadcrumb-trail.php:529
+msgid "d"
+msgstr "d"
+
+#: ../extensions/breadcrumb-trail.php:325
+#, php-format
+msgid "Week %1$s"
+msgstr "Woche %1$s"
+
+#: ../extensions/breadcrumb-trail.php:325
+#: ../functions/context.php:435
+msgid "W"
+msgstr "W"
+
+#: ../extensions/breadcrumb-trail.php:341
+#: ../functions/context.php:452
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "Suchergebnisse für &quot;%1$s&quot;"
+
+#: ../extensions/breadcrumb-trail.php:345
+#: ../functions/context.php:456
+msgid "404 Not Found"
+msgstr "Seite nicht gefunden (404)"
+
+#: ../extensions/breadcrumb-trail.php:414
+msgid "Split"
+msgstr "Teilen"
+
+#: ../extensions/breadcrumb-trail.php:418
+msgid "Merge"
+msgstr "Verbinden"
+
+#: ../extensions/breadcrumb-trail.php:525
+#: ../functions/core-seo.php:86
+msgid "F Y"
+msgstr "F Y"
+
+#: ../extensions/breadcrumb-trail.php:529
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: ../extensions/custom-field-series.php:86
+msgid "Articles in this series"
+msgstr "Artikel aus dieser Serie"
+
+#: ../extensions/custom-field-series.php:212
+msgid "Series"
+msgstr "Artikelserie"
+
+#: ../extensions/post-stylesheets.php:255
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+#: ../extensions/theme-layouts.php:295
+msgid "Default"
+msgstr "Standard"
+
+#: ../extensions/theme-layouts.php:296
+msgid "One Column"
+msgstr "Eine Spalte"
+
+#: ../extensions/theme-layouts.php:297
+msgid "Two Columns, Left"
+msgstr "Zwei Spalten, Inhalt links"
+
+#: ../extensions/theme-layouts.php:298
+msgid "Two Columns, Right"
+msgstr "Zwei Spalten, Inhalt rechts"
+
+#: ../extensions/theme-layouts.php:299
+msgid "Three Columns, Left"
+msgstr "Drei Spalten, Inhalt links"
+
+#: ../extensions/theme-layouts.php:300
+msgid "Three Columns, Right"
+msgstr "Drei Spalten, Inhalt rechts"
+
+#: ../extensions/theme-layouts.php:301
+msgid "Three Columns, Center"
+msgstr "Drei Spalten, Inhalt zentriert"
+
+#: ../extensions/theme-layouts.php:377
+#: ../extensions/theme-layouts.php:485
+msgid "Layout"
+msgstr "Layout"
+
+#: ../extensions/theme-layouts.php:404
+msgid "Layout is a theme-specific structure for the single view of the post."
+msgstr "Das Layout für diesen Beitrag festlegen."
+
+#: ../functions/comments.php:182
+msgid "*"
+msgstr "*"
+
+#: ../functions/comments.php:189
+msgid "Website"
+msgstr "Website"
+
+#: ../functions/comments.php:195
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ../functions/comments.php:196
+#, php-format
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Sie müssen <a href=\"%1$s\" title=\"Anmelden\">eingeloggt sein</a> um einen Kommentar abzugeben."
+
+#: ../functions/comments.php:197
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "Eingeloggt als <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: ../functions/comments.php:197
+msgid "Log out of this account"
+msgstr "Loggen Sie sich von diesem Account aus"
+
+#: ../functions/comments.php:197
+msgid "Log out &raquo;"
+msgstr "Ausloggen &raquo;"
+
+#: ../functions/comments.php:202
+msgid "Leave a Reply"
+msgstr "Kommentar abgeben"
+
+#: ../functions/comments.php:203
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Kommentar zu %s abgeben"
+
+#: ../functions/comments.php:204
+msgid "Click here to cancel reply."
+msgstr "Klicken Sie hier, um das Kommentieren abzubrechen."
+
+#: ../functions/comments.php:205
+msgid "Post Comment"
+msgstr "Kommentar abschicken"
+
+#: ../functions/context.php:423
+#: ../functions/context.php:429
+#: ../functions/context.php:432
+#: ../functions/context.php:438
+#: ../functions/context.php:441
+#, php-format
+msgid "Archive for %1$s"
+msgstr "Archiv für %1$s"
+
+#: ../functions/context.php:426
+#, php-format
+msgid "Archive for minute %1$s"
+msgstr "Archiv für Minute %1$s"
+
+#: ../functions/context.php:432
+msgid "F jS, Y"
+msgstr "j. F Y"
+
+#: ../functions/context.php:435
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Archiv für Woche %1$s %2$s"
+
+#: ../functions/context.php:460
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr "%1$s Seite %2$s"
+
+#: ../functions/core-seo.php:93
+#, php-format
+msgid "Copyright (c) %1$s"
+msgstr "Copyright (c) %1$s"
+
+#: ../functions/core-seo.php:112
+msgid "l, F jS, Y, g:i a"
+msgstr "l, j. F Y (H:i)"
+
+#: ../functions/customize.php:63
+#: ../functions/customize.php:88
+msgid "Footer"
+msgstr ""
+
+#: ../functions/deprecated.php:572
+#, php-format
+msgid "<code>%1$s</code> &mdash; This function has been removed or replaced by another function."
+msgstr "<code>%1$s</code> &mdash; Diese Funktion wurde entfernt oder durch eine andere ersetzt."
+
+#: ../functions/menus.php:38
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr "Hauptnavigation"
+
+#: ../functions/menus.php:42
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr "Sekundäre Navigation"
+
+#: ../functions/menus.php:46
+msgctxt "nav menu location"
+msgid "Subsidiary"
+msgstr "Ergänzende Navigation"
+
+#: ../functions/settings.php:76
+#: ../functions/settings.php:80
+msgid "Copyright &#169; [the-year] [site-link]."
+msgstr "Copyright &#169; [the-year] [site-link]."
+
+#: ../functions/settings.php:76
+msgid "Powered by [wp-link], [theme-link], and [child-link]."
+msgstr "Powered by [wp-link], [theme-link], und [child-link]."
+
+#: ../functions/settings.php:80
+msgid "Powered by [wp-link] and [theme-link]."
+msgstr "Powered by [wp-link] und [theme-link]."
+
+#: ../functions/shortcodes.php:93
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr "Zeitgemäße, semantisch orientierte, persönliche Veröffentlichungsplattform."
+
+#: ../functions/shortcodes.php:93
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../functions/shortcodes.php:106
+#, php-format
+msgid "%s WordPress Theme"
+msgstr "%s WordPress Theme"
+
+#: ../functions/shortcodes.php:134
+msgid "Log out"
+msgstr "Ausloggen"
+
+#: ../functions/shortcodes.php:136
+msgid "Log in"
+msgstr "Einloggen"
+
+#: ../functions/shortcodes.php:151
+#, php-format
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr "Die Seite wurde in %1$s Sekunden mit %2$s Datenbank-Abfragen geladen."
+
+#: ../functions/shortcodes.php:204
+#: ../functions/shortcodes.php:443
+#, php-format
+msgid "Edit %1$s"
+msgstr "%1$s bearbeiten"
+
+#: ../functions/shortcodes.php:234
+msgid "Leave a response"
+msgstr "Kommentieren"
+
+#: ../functions/shortcodes.php:234
+#, php-format
+msgid "%1$s Response"
+msgstr "%1$s Kommentar"
+
+#: ../functions/shortcodes.php:234
+#, php-format
+msgid "%1$s Responses"
+msgstr "%1$s Kommentare"
+
+#: ../functions/shortcodes.php:241
+#: ../functions/shortcodes.php:243
+#: ../functions/shortcodes.php:245
+#, php-format
+msgid "Comment on %1$s"
+msgstr "Kommentar zu %1$s"
+
+#: ../functions/shortcodes.php:305
+msgid "(Untitled)"
+msgstr "(Ohne Titel)"
+
+#: ../functions/shortcodes.php:321
+msgid "Shortlink"
+msgstr "Shortlink zu diesem Beitrag"
+
+#: ../functions/shortcodes.php:345
+#: ../functions/shortcodes.php:422
+msgid "Permalink"
+msgstr "Permanenter Link"
+
+#: ../functions/shortcodes.php:373
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: ../functions/shortcodes.php:422
+#, php-format
+msgid "Permalink to comment %1$s"
+msgstr "Permanenter Link zu Kommentar %1$s"
+
+#: ../functions/shortcodes.php:462
+msgid "Reply"
+msgstr "Antworten"
+
+#: ../functions/shortcodes.php:463
+msgid "Log in to reply."
+msgstr "Einloggen um zu antworten."
+
+#: ../functions/sidebars.php:87
+msgctxt "sidebar"
+msgid "Primary"
+msgstr "Primärer Widget-Bereich"
+
+#: ../functions/sidebars.php:88
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr "Der primäre Widget-Bereich, wird meist als Sidebar genutzt."
+
+#: ../functions/sidebars.php:91
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr "Sekundärer Widget-Bereich"
+
+#: ../functions/sidebars.php:92
+msgid "The second most important widget area, most often used as a secondary sidebar."
+msgstr "Ein zweiter wichtiger Widget-Bereich, wird meist als sekundäre Sidebar genutzt."
+
+#: ../functions/sidebars.php:95
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr "Ergänzender Widget-Bereich"
+
+#: ../functions/sidebars.php:96
+msgid "A widget area loaded in the footer of the site."
+msgstr "Ein Widget-Bereich für die Fußzeile der Seite."
+
+#: ../functions/sidebars.php:99
+msgctxt "sidebar"
+msgid "Header"
+msgstr "Header"
+
+#: ../functions/sidebars.php:100
+msgid "Displayed within the site's header area."
+msgstr "Wird im Kopfbereich der Website angezeigt."
+
+#: ../functions/sidebars.php:103
+msgctxt "sidebar"
+msgid "Before Content"
+msgstr "Vor dem Inhaltsbereich"
+
+#: ../functions/sidebars.php:104
+msgid "Loaded before the page's main content area."
+msgstr "Wird vor dem Content-Bereich der Seite angezeigt."
+
+#: ../functions/sidebars.php:107
+msgctxt "sidebar"
+msgid "After Content"
+msgstr "Nach dem Inhaltsbereich"
+
+#: ../functions/sidebars.php:108
+msgid "Loaded after the page's main content area."
+msgstr "Wird nach dem Content-Bereich der Seite angezeigt."
+
+#: ../functions/sidebars.php:111
+msgctxt "sidebar"
+msgid "After Singular"
+msgstr "Nach einzelnen Beiträgen"
+
+#: ../functions/sidebars.php:112
+msgid "Loaded on singular post (page, attachment, etc.) views before the comments area."
+msgstr "Wird bei einzelnen Beiträgen (Artikeln, Seiten, Anhängen, etc.) vor den Kommentaren angezeigt."
+
+#~ msgid "Title used for search engines and the browser title bar."
+#~ msgstr ""
+#~ "Der title Tag - wird durch Suchmaschinen und für die Titelleiste des "
+#~ "Browsers verwendet."
+
+#~ msgid "Keywords"
+#~ msgstr "Keywords"
+
+#~ msgid "Meta keywords to represent the content of the single post."
+#~ msgstr "Meta keywords, die den Inhalt eines Beitrags angeben."
+
+#~ msgid "Meta description that describes the post."
+#~ msgstr "Meta description zum Zusammenfassen des Inhalts eines Beitrags."
+
+#~ msgid "Show last update?"
+#~ msgstr "Letzte Aktualisierung anzeigen?"
+
+#~ msgid "Automatically add paragraphs"
+#~ msgstr "Absätze automatisch hinzufügen"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "users."
+#~ msgstr ""
+#~ "Ein fortgeschrittenes Widget, das volle Kontrolle über die Anzeige der "
+#~ "User (Benutzer) erlaubt."
+
+#~ msgid "Users"
+#~ msgstr "Benutzer"
+
+#~ msgid "Log into this account"
+#~ msgstr "Loggen Sie sich in diesen Account ein."
