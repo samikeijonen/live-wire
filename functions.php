@@ -37,7 +37,7 @@ function live_wire_theme_setup() {
 	add_theme_support( 'hybrid-core-widgets' );
 	add_theme_support( 'hybrid-core-shortcodes' );
 	add_theme_support( 'hybrid-core-theme-settings', array( 'about', 'footer' ) );
-	add_theme_support( 'hybrid-core-drop-downs' );
+	add_theme_support( 'hybrid-core-scripts', array( 'drop-downs' ) );
 	add_theme_support( 'hybrid-core-seo' );
 	add_theme_support( 'hybrid-core-template-hierarchy' );
 	
