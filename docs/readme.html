@@ -96,21 +96,7 @@ editor by choosing layout for that certain post:
 <li>Two Columns, Right</li>
 </ul>
 
-<p>Now you might want to change default layout for all post/pages. Let's say you want two columns layout, content on the right and sidebar on the left. Add this in child themes <code>functions.php</code> inside setup function.</p>
-
-<pre><code>add_filter( 'get_theme_layout', 'my_theme_layout' );</code></pre>
-
-<p>And this after setup function.</p>
-
-<pre><code>
-function my_theme_layout( $layout ) {
-
-	if ( 'layout-default' == $layout )
-		$layout = 'layout-2c-r';
-
-	return $layout;
-}
-</code></pre>
+<p>Now you might want to change default layout for all post/pages. You can do that under Appearance >> Customize. This option was added in Live Wire version 0.2.
 
 <h3>Add word Menu only in dropdown navigation</h3>
 <p>
