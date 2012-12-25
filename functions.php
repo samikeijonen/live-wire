@@ -195,8 +195,15 @@ function live_wire_scripts() {
 		wp_enqueue_script( 'live_wire-fitvids-settings', trailingslashit ( THEME_URI ) . 'js/fitvids.js', '', '20120222', true );
 		
 		/* Enqueue TinyNav */
-		wp_enqueue_script( 'live_wire-tinynav', trailingslashit ( THEME_URI ) . 'js/tinynav.min.js', array( 'jquery' ), '20120301', true );
-		wp_enqueue_script( 'live_wire-tinynav-settings', trailingslashit ( THEME_URI ) . 'js/tinynav.js', '', '20120301', true );
+		wp_enqueue_script( 'live_wire-tinynav', trailingslashit ( THEME_URI ) . 'js/tinynav.min.js', array( 'jquery' ), '20121228', true );
+		wp_enqueue_script( 'live_wire-tinynav-settings', trailingslashit ( THEME_URI ) . 'js/tinynav.js', '', '20121228', true );
+		
+		/* Localize header text in TinyNav. @link: http://pippinsplugins.com/use-wp_localize_script-it-is-awesome */
+		wp_localize_script( 'live_wire-tinynav-settings', 'tinynav_settings_vars', array(
+			'header_primary' => __( 'Primary Navigation...', 'live-wire' ),
+			'header_secondary' => __( 'Secondary Navigation...', 'live-wire' )
+			)
+		);
 		
 	}
 }

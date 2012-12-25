@@ -2,7 +2,7 @@
  * Theme Name: Live Wire
  * Theme URI: http://themehybrid.com/themes/live-wire
  * Description: Live Wire is about rocking your blogging. It was designed with Mobile first attitude, it supports post formats, it's translation-ready and what else.
- * Version: 0.1.6
+ * Version: 0.2
  * Author: Sami Keijonen
  * Author URI: http://foxnet.fi/en
  * Tags: post-formats, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, flexible-width, left-sidebar, right-sidebar, custom-background, featured-images, editor-style, blue, white
@@ -362,7 +362,7 @@ img.wp-smiley {
 #menu-primary li.current-menu-item a {
 	color: #1189b7;
 }
-#menu-primary li:nth-child(2).current-menu-item {
+#menu-primary li:first-child.current-menu-item {
 	-webkit-border-top-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
 	border-top-left-radius: 10px;
@@ -373,8 +373,8 @@ img.wp-smiley {
 	color: #1189b7;
 	text-decoration: none;
 }
-#menu-primary li:nth-child(2) a:hover,
-#menu-primary li:nth-child(2).sfHover a {
+#menu-primary li:first-child a:hover,
+#menu-primary li:first-child.sfHover a {
 	-webkit-border-top-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
 	border-top-left-radius: 10px;
@@ -389,11 +389,11 @@ img.wp-smiley {
 	padding-left: 2.27272727em; /* 25px / 11px = 2.2727272 */
 	text-transform: none;
 }
-#menu-primary li li:nth-child(2) a:hover,
-#menu-primary li:nth-child(2).sfHover li a,
-#menu-primary li li:nth-child(2).sfHover li a,
-#menu-primary li:nth-child(2).sfHover li a,
-#menu-primary li li:nth-child(2).sfHover li a {
+#menu-primary li li:first-child a:hover,
+#menu-primary li:first-child.sfHover li a,
+#menu-primary li li:first-child.sfHover li a,
+#menu-primary li:first-child.sfHover li a,
+#menu-primary li li:first-child.sfHover li a {
 	-webkit-border-top-left-radius: 0;
 	-moz-border-radius-topleft: 0;
 	border-top-left-radius: 0;

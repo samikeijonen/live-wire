@@ -19,7 +19,7 @@
 				
 				<?php do_atomic( 'open_menu_primary' ); // live-wire_open_menu_primary ?>	
 					
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu', 'menu_class' => '', 'menu_id' => 'menu-primary-items', 'items_wrap' => '<ul id="%1$s" class="%2$s"><li class="tinynav-select-menu"><a href="#">' .  __( 'Primary Navigation...', 'live-wire' ) . '</a></li>%3$s</ul>',  'fallback_cb' => '' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu', 'menu_class' => '', 'menu_id' => 'menu-primary-items', 'fallback_cb' => '' ) ); ?>
 				
 				<?php do_atomic( 'close_menu_primary' ); // live-wire_close_menu_primary ?>
 						
