@@ -31,7 +31,7 @@
 
 	<?php elseif ( !is_singular() && current_theme_supports( 'loop-pagination' ) ) : loop_pagination( array( 'prev_text' => __( '<span class="meta-nav">&larr;</span> Previous', 'live-wire' ), 'next_text' => __( 'Next <span class="meta-nav">&rarr;</span>', 'live-wire' ) ) ); ?>
 
-	<?php elseif ( !is_singular() && $nav = get_posts_nav_link( array( 'sep' => '', 'prelabel' => '<span class="previous">' . __( '<span class="meta-nav">&larr;</span> Previous', 'live-wire' ) . '</span>', 'nxtlabel' => '<span class="next">' . __( 'Next &rarr;', 'live-wire' ) . '</span>' ) ) ) : ?>
+	<?php elseif ( !is_singular() && $nav = get_posts_nav_link( array( 'sep' => '', 'prelabel' => '<span class="previous">' . __( '<span class="meta-nav">&larr;</span> Previous', 'live-wire' ) . '</span>', 'nxtlabel' => '<span class="next">' . __( 'Next <span class="meta-nav">&rarr;</span>', 'live-wire' ) . '</span>' ) ) ) : ?>
 
 		<div class="loop-nav">
 			<?php echo $nav; ?>
