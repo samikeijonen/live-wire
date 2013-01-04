@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Live Wire\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-02 19:51+0200\n"
-"PO-Revision-Date: 2012-09-02 19:51+0200\n"
+"POT-Creation-Date: 2013-01-04 13:25+0200\n"
+"PO-Revision-Date: 2013-01-04 13:25+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: en\n"
@@ -15,6 +15,7 @@ msgstr ""
 "esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
 "X-Poedit-Basepath: ../\n"
 "X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ live-wire
@@ -186,6 +187,14 @@ msgstr ""
 "[entry-terms taxonomy=\"category\" before=\"W kategorii \"] [entry-terms "
 "before=\"| Tagi \"]"
 
+#: functions.php:203
+msgid "Primary Navigation..."
+msgstr ""
+
+#: functions.php:204
+msgid "Secondary Navigation..."
+msgstr ""
+
 # @ live-wire
 #: header.php:77
 msgid "You are here:"
@@ -235,22 +244,9 @@ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Poprzedni"
 
 # @ live-wire
-#: loop-nav.php:29 loop-nav.php:32
+#: loop-nav.php:29 loop-nav.php:32 loop-nav.php:34
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Następny <span class=\"meta-nav\">&rarr;</span>"
-
-# @ live-wire
-#: loop-nav.php:34
-msgid "Next &rarr;"
-msgstr "Następny &rarr;"
-
-#: menu-primary.php:22
-msgid "Primary Navigation..."
-msgstr ""
-
-#: menu-secondary.php:22
-msgid "Secondary Navigation..."
-msgstr ""
 
 # @ live-wire
 #: search.php:40
