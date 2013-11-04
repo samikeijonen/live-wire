@@ -2,10 +2,11 @@
  * Theme Name: Live Wire
  * Theme URI: http://themehybrid.com/themes/live-wire
  * Description: Live Wire is about rocking your blogging. It was designed with Mobile first attitude, it supports post formats, it's translation-ready and what else.
- * Version: 0.2
+ * Version: 0.3
  * Author: Sami Keijonen
  * Author URI: http://foxnet.fi/en
  * Tags: post-formats, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, flexible-width, left-sidebar, right-sidebar, custom-background, featured-images, editor-style, blue, white
+ * Text Domain: live-wire
  * License: GNU General Public License v2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Copyright (c) Sami Keijonen.  All rights reserved.
@@ -424,30 +425,27 @@ img.wp-smiley {
 }
 	
 /* Sub-nav indicator. */
-#menu-primary a.sf-with-ul {
-	padding-right: 2.54545455em; /* 28px / 11px = 2.54545455 */
-}
-#menu-primary li .sf-sub-indicator {
-	background: url('images/menu-plus.png') no-repeat 0 0;
-	overflow: hidden;
+#menu-primary ul .menu-item-has-children > a:after,
+#menu-secondary ul .menu-item-has-children > a:after  {
+	content: "\002B"; /* Plus sign. */
+	float: right;
+	padding-left: 8px;
+	padding-left: 0.5rem;
 	position: absolute;
-	top: 1.45454545em; /* 16px / 11px = 1.45454545 */
-	right: 1.09090909em; /* 12px / 11px = 1.09090909 */
-	width: 6px;
-	height: 6px;
-	text-indent: -9999em;
 }
-#menu-primary li a:hover .sf-sub-indicator,
-#menu-primary li.sfHover .sf-sub-indicator,
-#menu-primary li.current-menu-item .sf-sub-indicator {
-	background-position: 0 -6px;
+#menu-primary ul .menu-item-has-children > a,
+#menu-secondary ul .menu-item-has-children > a {
+	padding-right: 24px;
+	padding-right: 1.5rem;
 }
-#menu-primary li ul li .sf-sub-indicator,
-#menu-primary li ul li.current-menu-item li .sf-sub-indicator {
-	background-position: 0 -6px !important;
-	top: 1.45454545em; /* 16px / 11px = 1.45454545 */
-	width: 6px;
-	height: 6px;
+#menu-primary ul ul .menu-item-has-children > a:after,
+#menu-secondary ul ul .menu-item-has-children > a:after {
+	position: static;
+}
+#menu-primary  ul ul .menu-item-has-children > a,
+#menu-secondary  ul ul .menu-item-has-children > a  {
+	padding-right: 8px;
+	padding-right: 0.5rem;
 }
 
 /* Header */
@@ -655,6 +653,9 @@ img.wp-smiley {
 /* =Posts
 -------------------------------------------------------------- */
 
+.bypostauthor{
+}
+
 /* Posts */
 .hentry {
 	border-bottom: 1px solid #e5e5e5;
@@ -858,8 +859,12 @@ a.more-link:hover {
 } 
 .widget-search input[type="text"],
 input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type=tel],
+input[type=number],
 input[type="password"] {
-	background: #ebeae8;
+	background: #f2f2f2;
 	border: 1px solid #e5e5e5;
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
@@ -878,6 +883,10 @@ input[type="password"] {
 }
 .widget-search input[type="text"]:focus,
 input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
 input[type="password"]:focus {
 	background: #fff;
 }
